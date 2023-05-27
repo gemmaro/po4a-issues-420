@@ -1,6 +1,6 @@
 all:
 	mkdir -p out
-	po4a po4a.cfg # --destdir out
+	po4a po4a.cfg --debug # --destdir out
 .PHONY: all
 
 clean:
